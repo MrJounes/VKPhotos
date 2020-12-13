@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D71F28EA2585110D003A7BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F28E92585110D003A7BD2 /* AppDelegate.swift */; };
-		D71F28EC2585110D003A7BD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F28EB2585110D003A7BD2 /* SceneDelegate.swift */; };
-		D71F28EE2585110D003A7BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F28ED2585110D003A7BD2 /* ViewController.swift */; };
-		D71F28F12585110D003A7BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71F28EF2585110D003A7BD2 /* Main.storyboard */; };
 		D71F28F325851112003A7BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71F28F225851112003A7BD2 /* Assets.xcassets */; };
 		D71F28F625851112003A7BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71F28F425851112003A7BD2 /* LaunchScreen.storyboard */; };
+		D75F2B8325867904004AF002 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75F2B8225867904004AF002 /* AuthService.swift */; };
+		D75F2B8625867B80004AF002 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75F2B8525867B7F004AF002 /* AuthViewController.swift */; };
+		D75F2B8925867B8F004AF002 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75F2B8825867B8F004AF002 /* Auth.storyboard */; };
+		D7CB5607258677A4004F033B /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CB5606258677A4004F033B /* NewsFeedViewController.swift */; };
+		D7CB560B258677C5004F033B /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CB560A258677C5004F033B /* NewsFeed.storyboard */; };
+		D7CFAC8C25868B79001B0C8E /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CFAC8B25868B79001B0C8E /* UIViewController + Storyboard.swift */; };
+		FD8E46CBBF54E7A5CB1C584F /* Pods_VKPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC92CE761E0680257A330FC3 /* Pods_VKPhotos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		326ADF3E2FEF65397D79053D /* Pods-VKPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPhotos.debug.xcconfig"; path = "Target Support Files/Pods-VKPhotos/Pods-VKPhotos.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE5D4A128242A3FF7FF37FC /* Pods-VKPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPhotos.release.xcconfig"; path = "Target Support Files/Pods-VKPhotos/Pods-VKPhotos.release.xcconfig"; sourceTree = "<group>"; };
+		BC92CE761E0680257A330FC3 /* Pods_VKPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71F28E62585110D003A7BD2 /* VKPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71F28E92585110D003A7BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D71F28EB2585110D003A7BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D71F28ED2585110D003A7BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D71F28F02585110D003A7BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D71F28F225851112003A7BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D71F28F525851112003A7BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D71F28F725851112003A7BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75F2B8225867904004AF002 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D75F2B8525867B7F004AF002 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		D75F2B8825867B8F004AF002 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		D7CB5606258677A4004F033B /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		D7CB560A258677C5004F033B /* NewsFeed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsFeed.storyboard; sourceTree = "<group>"; };
+		D7CFAC8B25868B79001B0C8E /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8E46CBBF54E7A5CB1C584F /* Pods_VKPhotos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2C27D827DAADCD44715AAC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC92CE761E0680257A330FC3 /* Pods_VKPhotos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5787352AA3B8B1B00B8F5C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				326ADF3E2FEF65397D79053D /* Pods-VKPhotos.debug.xcconfig */,
+				BBE5D4A128242A3FF7FF37FC /* Pods-VKPhotos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D71F28DD2585110D003A7BD2 = {
 			isa = PBXGroup;
 			children = (
 				D71F28E82585110D003A7BD2 /* VKPhotos */,
 				D71F28E72585110D003A7BD2 /* Products */,
+				B5787352AA3B8B1B00B8F5C2 /* Pods */,
+				B2C27D827DAADCD44715AAC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,66 @@
 		D71F28E82585110D003A7BD2 /* VKPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				D7CFAC8A25868B5C001B0C8E /* Helpers */,
+				D7CB560225867758004F033B /* Application */,
+				D75F2B81258678F3004AF002 /* Services */,
+				D7CB56042586777D004F033B /* Scenes */,
+			);
+			path = VKPhotos;
+			sourceTree = "<group>";
+		};
+		D75F2B81258678F3004AF002 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D75F2B8225867904004AF002 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D75F2B8B25867B98004AF002 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D75F2B8825867B8F004AF002 /* Auth.storyboard */,
+				D75F2B8525867B7F004AF002 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D7CB560225867758004F033B /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				D71F28E92585110D003A7BD2 /* AppDelegate.swift */,
-				D71F28EB2585110D003A7BD2 /* SceneDelegate.swift */,
-				D71F28ED2585110D003A7BD2 /* ViewController.swift */,
-				D71F28EF2585110D003A7BD2 /* Main.storyboard */,
 				D71F28F225851112003A7BD2 /* Assets.xcassets */,
 				D71F28F425851112003A7BD2 /* LaunchScreen.storyboard */,
 				D71F28F725851112003A7BD2 /* Info.plist */,
 			);
-			path = VKPhotos;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D7CB56042586777D004F033B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D7CB560525867788004F033B /* NewsFeed */,
+				D75F2B8B25867B98004AF002 /* Auth */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D7CB560525867788004F033B /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				D7CB560A258677C5004F033B /* NewsFeed.storyboard */,
+				D7CB5606258677A4004F033B /* NewsFeedViewController.swift */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		D7CFAC8A25868B5C001B0C8E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D7CFAC8B25868B79001B0C8E /* UIViewController + Storyboard.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D71F28FA25851112003A7BD2 /* Build configuration list for PBXNativeTarget "VKPhotos" */;
 			buildPhases = (
+				199EF2B042CD5597E14EC014 /* [CP] Check Pods Manifest.lock */,
 				D71F28E22585110D003A7BD2 /* Sources */,
 				D71F28E32585110D003A7BD2 /* Frameworks */,
 				D71F28E42585110D003A7BD2 /* Resources */,
+				C415D1999779E5E71B6A5FCD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +207,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75F2B8925867B8F004AF002 /* Auth.storyboard in Resources */,
 				D71F28F625851112003A7BD2 /* LaunchScreen.storyboard in Resources */,
 				D71F28F325851112003A7BD2 /* Assets.xcassets in Resources */,
-				D71F28F12585110D003A7BD2 /* Main.storyboard in Resources */,
+				D7CB560B258677C5004F033B /* NewsFeed.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		199EF2B042CD5597E14EC014 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKPhotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C415D1999779E5E71B6A5FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKPhotos/Pods-VKPhotos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VKPhotos/Pods-VKPhotos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKPhotos/Pods-VKPhotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D71F28E22585110D003A7BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71F28EE2585110D003A7BD2 /* ViewController.swift in Sources */,
+				D75F2B8625867B80004AF002 /* AuthViewController.swift in Sources */,
+				D7CFAC8C25868B79001B0C8E /* UIViewController + Storyboard.swift in Sources */,
+				D75F2B8325867904004AF002 /* AuthService.swift in Sources */,
 				D71F28EA2585110D003A7BD2 /* AppDelegate.swift in Sources */,
-				D71F28EC2585110D003A7BD2 /* SceneDelegate.swift in Sources */,
+				D7CB5607258677A4004F033B /* NewsFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D71F28EF2585110D003A7BD2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D71F28F02585110D003A7BD2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D71F28F425851112003A7BD2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +403,14 @@
 		};
 		D71F28FB25851112003A7BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326ADF3E2FEF65397D79053D /* Pods-VKPhotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AW7PB72PXH;
-				INFOPLIST_FILE = VKPhotos/Info.plist;
+				INFOPLIST_FILE = VKPhotos/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +424,14 @@
 		};
 		D71F28FC25851112003A7BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE5D4A128242A3FF7FF37FC /* Pods-VKPhotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AW7PB72PXH;
-				INFOPLIST_FILE = VKPhotos/Info.plist;
+				INFOPLIST_FILE = VKPhotos/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

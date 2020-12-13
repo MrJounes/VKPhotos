@@ -1,0 +1,3 @@
+VKPhotos
+
+pod install
